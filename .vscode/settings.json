@@ -74,8 +74,16 @@
   "eslint.quiet": true,
   "eslint.validate": ["javascript", "typescript", "javascriptreact", "typescriptreact", "vue", "html", "markdown", "json", "jsonc", "json5"],
   "cSpell.allowCompoundWords": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "cSpell.language": "en,en-US",
+  "cSpell.ignorePaths": [
+    "yarn.lock",
+    "node_modules",
+    "vscode-extension",
+    ".git/objects",
+    ".vscode",
+    ".vscode-insiders"
+  ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "css.lint.hexColorLength": "ignore",
   "githubIssues.workingIssueFormatScm": "#${issueNumberLabel}",
   "githubPullRequests.fileListLayout": "tree",
