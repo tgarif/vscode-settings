@@ -34,7 +34,7 @@
   "workbench.preferredDarkColorTheme": "Vitesse Dark",
   "workbench.preferredLightColorTheme": "Vitesse Light",
   "workbench.productIconTheme": "icons-carbon",
-  "workbench.sideBar.location": "right",
+  "workbench.sideBar.location": "left",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.tree.expandMode": "singleClick",
   "workbench.tree.indent": 10,
@@ -68,11 +68,11 @@
     "eslint"
   ],
   // ESLint config
-  // "eslint.codeAction.showDocumentation": {
-  //   "enable": true
-  // },
-  // "eslint.quiet": true,
-  // "eslint.validate": ["javascript", "typescript", "javascriptreact", "typescriptreact", "vue", "html", "markdown", "json", "jsonc", "json5"],
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "eslint.quiet": true,
+  "eslint.validate": ["javascript", "typescript", "javascriptreact", "typescriptreact", "vue", "html", "markdown", "json", "jsonc", "json5"],
   "cSpell.allowCompoundWords": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "cSpell.language": "en,en-US",
@@ -131,13 +131,14 @@
   "volar.codeLens.scriptSetupTools": true,
   "volar.completion.preferredTagNameCase": "pascal",
   "volar.showWelcomePage": false,
-  "volar.takeOverMode.enabled": "auto",
+  "volar.takeOverMode.enabled": true,
   // "prettier.enable": true,
   // "prettier.trailingComma": "es5",
   // "prettier.printWidth": 200,
   // "prettier.tabWidth": 2,
   // "prettier.semi": true,
   // "prettier.singleQuote": true,
+  
   // updated 2022-05-06 07:53
   // https://github.com/antfu/vscode-file-nesting-config
   "explorer.fileNesting.enabled": true,
