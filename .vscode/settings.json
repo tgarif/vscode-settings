@@ -16,6 +16,11 @@
   "editor.renderWhitespace": "boundary",
   "editor.suggestSelection": "first",
   "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false,
+    "source.fixAll.eslint": true, // this allows ESLint to auto fix on save
+    "source.organizeImports": false
+  },
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "window.autoDetectColorScheme": true,
