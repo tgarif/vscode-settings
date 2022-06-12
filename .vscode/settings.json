@@ -72,7 +72,18 @@
     "enable": true
   },
   "eslint.quiet": true,
-  "eslint.validate": ["javascript", "typescript", "javascriptreact", "typescriptreact", "vue", "html", "markdown", "json", "jsonc", "json5"],
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact",
+    "vue",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "json5"
+  ],
   "cSpell.allowCompoundWords": true,
   "cSpell.language": "en,en-US",
   "cSpell.ignorePaths": [
@@ -140,13 +151,12 @@
   "volar.completion.preferredTagNameCase": "pascal",
   "volar.showWelcomePage": false,
   "volar.takeOverMode.enabled": true,
-  // "prettier.enable": true,
-  // "prettier.trailingComma": "es5",
-  // "prettier.printWidth": 200,
-  // "prettier.tabWidth": 2,
-  // "prettier.semi": true,
-  // "prettier.singleQuote": true,
-  
+  "prettier.enable": false,
+  "prettier.trailingComma": "es5",
+  "prettier.printWidth": 200,
+  "prettier.tabWidth": 2,
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
   // updated 2022-05-06 07:53
   // https://github.com/antfu/vscode-file-nesting-config
   "explorer.fileNesting.enabled": true,
@@ -216,5 +226,35 @@
   "workbench.colorTheme": "Vitesse Dark",
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
-  }
+  },
+  "vite.autoStart": false,
+  "yaml.customTags": [
+    "!And",
+    "!And sequence",
+    "!If",
+    "!If sequence",
+    "!Not",
+    "!Not sequence",
+    "!Equals",
+    "!Equals sequence",
+    "!Or",
+    "!Or sequence",
+    "!FindInMap",
+    "!FindInMap sequence",
+    "!Base64",
+    "!Join",
+    "!Join sequence",
+    "!Cidr",
+    "!Ref",
+    "!Sub",
+    "!Sub sequence",
+    "!GetAtt",
+    "!GetAZs",
+    "!ImportValue",
+    "!ImportValue sequence",
+    "!Select",
+    "!Select sequence",
+    "!Split",
+    "!Split sequence"
+  ]
 }
