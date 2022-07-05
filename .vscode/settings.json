@@ -55,6 +55,7 @@
   "git.autofetch": true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
+  "git.enableCommitSigning": true,
   "git.untrackedChanges": "separate",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
